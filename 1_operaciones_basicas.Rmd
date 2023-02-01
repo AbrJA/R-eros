@@ -1,0 +1,92 @@
+---
+title: "R como calculadora: Operaciones básicas"
+output: html_notebook
+editor_options: 
+  chunk_output_type: inline
+---
+
+## Suma (+)
+
+```{r}
+5 + 8
+```
+
+## Resta (-)
+
+```{r}
+23 - 12
+```
+
+## Multiplicación (\*)
+
+```{r}
+12 * 5
+```
+
+## División (/)
+
+```{r}
+100 / 25
+```
+
+## Potenciación (\^ o \*\*)
+
+```{r}
+4 ** 3
+4 ^ 3
+```
+
+## Módulo (%%)
+
+```{r}
+13 %% 3
+```
+
+## División entera (%/%)
+
+```{r}
+13 %/% 3
+```
+
+## Funciones específicas
+
+```{r}
+sum(10, 5)
+```
+
+```{r}
+prod(3, 2)
+```
+
+```{r}
+sqrt(4)
+```
+
+```{r}
+abs(-5)
+```
+
+## Parentesis
+
+```{r}
+12 / 3 * 2
+12 / (3 * 2)
+```
+
+## Funciones matemáticas
+
+### Trigonométricas
+
+```{r}
+sin(pi / 2)
+cos(pi)
+tan(2 * pi)
+```
+
+### Logaritmos
+
+```{r}
+log(8, base = 2)
+log2(8)
+log10(100)
+```
